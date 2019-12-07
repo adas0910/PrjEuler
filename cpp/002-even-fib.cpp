@@ -4,11 +4,11 @@
 using namespace::std;
 
 
-int fun(int n)
+void fun()
 {
-   int sum=0, a=0, b=1;
+   int sum=0, a=1, b=2;
    int fib=a+b;
-   while(fib<=n)
+   while(fib<=4000000)
    {
        fib=a+b;
        a=b;
@@ -19,13 +19,11 @@ int fun(int n)
        }
 
    }
-   return sum;
+   cout<<sum;
 }
 
 int main()
 {
-    int n;
-    cin>>n;
-    cout<<fun(n);
+    fun();
     return 0;
 }
