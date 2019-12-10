@@ -13,7 +13,7 @@ void prime(long long n)
     for (long long i = 2; n > 0 ; i++)
     {
         isPrime = true;
-        for (long long j = 2; j <= i/2; j++)
+        for (long long j = 2; j * j <= i; j++)
         {
             if (i % j == 0)
             {
