@@ -15,7 +15,7 @@ void prime(long long n)
         isPrime = true;
         for (long long j = 2; j * j <= i; j++)
         {
-            if (i % j == 0)
+            if (i % j == 0 || i % 2 == 0)
             {
                 isPrime = false;
                 break;
