@@ -100,7 +100,7 @@ int main()
 {
     unsigned int num, arr[20][20];
 
-    ifstream myFile("D:\\_Project\\Project-Euler\\011.txt");
+    ifstream myFile("011.txt");
     if(!myFile)
     {
         cout<<"Cannot open file.";
